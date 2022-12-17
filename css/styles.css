@@ -95,6 +95,14 @@ img {
     line-height: 16px;
 }
 
+.active-nav-link {
+    width: 53px;
+    height: 4px;
+    background-color: var(--primary-color);
+    position: relative;
+    top: 28px;
+}
+
 .nav-contact {
     font-weight: 500;
     font-size: 14px;
