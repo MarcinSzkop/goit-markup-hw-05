@@ -97,10 +97,6 @@ img {
     position: relative;
 }
 
-.active-nav-link {
-    color: var(--primary-color);
-}
-
 .active-nav-link::after {
     content: '';
     position: absolute;
@@ -128,6 +124,10 @@ img {
 .nav-contact:focus {
     color: var(--primary-color);
     fill: currentColor;
+}
+
+.active-nav-link {
+    color: var(--primary-color);
 }
 
 .menu a {
