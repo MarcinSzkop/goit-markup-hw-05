@@ -127,7 +127,7 @@ img {
 }
 
 .active-nav-link {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
 }
 
 .menu a {
