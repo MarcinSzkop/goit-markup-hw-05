@@ -214,7 +214,7 @@ img {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.5s; ease, visibility: 0.5s ease;
+    transition: opacity 500ms ease, visibility 500ms ease;
   }
   
   .modal-backdrop {
