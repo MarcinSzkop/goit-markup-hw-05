@@ -97,6 +97,10 @@ img {
     position: relative;
 }
 
+.active-nav-link {
+    color: var(--primary-color) !important;
+}
+
 .active-nav-link::after {
     content: '';
     position: absolute;
@@ -124,10 +128,6 @@ img {
 .nav-contact:focus {
     color: var(--primary-color);
     fill: currentColor;
-}
-
-.active-nav-link {
-    color: var(--primary-color) !important;
 }
 
 .menu a {
@@ -484,6 +484,7 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-top: 50px;
+    transition: border-color var(--transition-set);
 }
 
 .our-customers-bg:hover svg,
