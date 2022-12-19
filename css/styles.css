@@ -214,9 +214,7 @@ img {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    opacity: 0.5s;
-    visibility: 0.5s;
-    transition-timing-function: ease;
+    transition: opacity 0.5s; ease, visibility: 0.5s ease;
   }
   
   .modal-backdrop {
@@ -486,13 +484,11 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-top: 50px;
-    transition: fill var(--transition-set);
 }
 
 .our-customers-bg:hover svg,
 .our-customers-bg:focus svg {
     fill: var(--primary-color);
-    transition: fill var(--transition-set);
 }
 
 .our-customers-bg:hover,
@@ -511,6 +507,7 @@ img {
     display: flex;
     margin: 16px 32px 16px 32px;
     fill: var(--gray-icons-color);
+    transition: fill var(--transition-set);
 }
 
 /* Section - Portfolio */
