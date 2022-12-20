@@ -419,7 +419,6 @@ img {
     display: flex;
     fill: var(--gray-icons-color);
     padding: 12px;
-    transition: fill var(--transition-set);
 }
 
 .our-team-social-icon-svg:hover,
@@ -433,7 +432,7 @@ img {
 
 .icon-svg-bg {
     background-color: var(--quaternary-color);
-    transition: background-color var(--transition-set);
+    transition: fill var(--transition-set);
 }
 
 /* Section - Portfolio menu */
