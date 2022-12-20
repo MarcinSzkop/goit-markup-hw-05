@@ -217,7 +217,7 @@ img {
     border-radius: 4px;
     border: none;
     color: var(--quaternary-color);
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition-property: transform, color, background-color; 
 }
@@ -225,7 +225,7 @@ img {
 .slider button:hover {
     transform: scale(1.1);
     color: var(--primary-color) !important;
-    background: var(--quaternary-color) !important;
+    background-color: var(--quaternary-color) !important;
 }
 
 
