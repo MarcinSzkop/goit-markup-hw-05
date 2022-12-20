@@ -219,6 +219,7 @@ img {
     color: var(--quaternary-color);
     background: var(--primary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition-property: transform, color, background-color; 
 }
 
 .slider button:hover {
