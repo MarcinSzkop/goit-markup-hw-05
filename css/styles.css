@@ -221,6 +221,21 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.button-slider:hover {
+    padding: 10px 42px 10px 41px;
+    margin-bottom: 106px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
 /* MODAL */
 
 .is-hidden {
